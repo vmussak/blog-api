@@ -24,4 +24,5 @@ The Aspire metrics will be available at `http://localhost:18888/`
 - Add API versioning.
 - Add more unit tests.
 - Add integration tests using SpecFlow and Testcontainers.
+- Add a lock for message count updates
 
