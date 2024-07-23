@@ -15,6 +15,8 @@ In the root folder of the project, there is a file called `docker-compose.yml`. 
 
 After running the `docker-compose.yml` file, you can run the project located in the `\src\Blog.Api\` directory using the command `dotnet run https` and then access the address `http://localhost:5265/swagger/index.html` to view the Swagger documentation.
 
+The Aspire metrics will be available at `http://localhost:18888/`
+
 ## Next 
 
 - Add resilience to the queue and integration components, including retry and, if necessary, circuit breaker.
